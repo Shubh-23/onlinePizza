@@ -1,14 +1,16 @@
 {
   "name": "pro",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.16.1"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "development": "mix",
     "watch": "mix watch",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -40,5 +42,15 @@
     "resolve-url-loader": "^4.0.0",
     "sass": "^1.45.1",
     "sass-loader": "^12.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubh-23/onlinePizza.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Shubh-23/onlinePizza/issues"
+  },
+  "homepage": "https://github.com/Shubh-23/onlinePizza#readme",
+  "description": ""
 }
